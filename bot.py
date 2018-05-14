@@ -100,7 +100,8 @@ def heartbeat():
         time.sleep(3600)
         # noinspection PyBroadException
         try:
-            logger.error(status())
+            #logger.error(status())
+            print(status())
         except ResponseError as e:
             if 1100 <= e.err_code <= 1102:
                 logger.critical('LCBot offline: {}'.format(e))
@@ -268,6 +269,7 @@ def invite(user, keyword):
 
 fresh_groups()
 get_logger()
+
 logger.error(str("机器人登陆成功！" + get_time()))
 
 start_new_thread(heartbeat)
@@ -306,6 +308,8 @@ def exist_friends(msg):
 # 管理群内的消息处理
 @bot.register(groups, except_self=False)
 def wxpy_group(msg):
+
+    print("群内消息处理：",msg)
     ret_msg = remote_kick(msg)
     random_sleep()
     if ret_msg:

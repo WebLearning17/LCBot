@@ -7,7 +7,7 @@
 管理员在被管理的群中享有高级管理权限，可进行如踢人等的操作
 注：群名为部分匹配，请尽量输入全名以保证搜索到的群的唯一性
 '''
-admin_group_name = '机器人管理群'
+admin_group_name = '208的导导们'#'机器人管理群'
 
 '''
 定义被管理群的群名前缀
@@ -32,17 +32,7 @@ welcome_text = '''🎉 欢迎 @{} 的加入！
 😃 有问题请私聊我。
 '''
 
-invite_text = """欢迎您，我是「Linux 中国」微信群助手，
-请输入如下关键字加入群：
-- 运维 开发 安全 嵌入式 学生 找工作
-- 运维密码  机器人
-- DBA PHP Python Golang Docker LFS vim
-进群四件事：
-1、阅读群公告，
-2、修改群名片，
-3、做自我介绍，
-4、发个总计一元、一百份的红包
-请言行遵守群内规定，违规者将受到处罚，拉入黑名单。"""
+invite_text = """欢迎您，我是测试微信群助手，您现在收到的是来自机器人的消息"""
 
 
 '''
@@ -59,7 +49,7 @@ keyword_of_group = {
 再从列表中随机选取一个发出加群邀请。
 '''
 keyword_of_group = {
-    "测试": "机器人测试群",
+    "测试": "208的导导们",
 }
 
 '''
@@ -69,11 +59,11 @@ city_group = {
     "北京": "机器人北京群",
 }
 
-keyword_of_group.update(city_group)
+#keyword_of_group.update(city_group)
 
 female_group = "机器人测试群"
 
-alert_group = "机器人测试群"
+alert_group = '208的导导们'#"机器人测试群"
 
 turing_key = ''
 
