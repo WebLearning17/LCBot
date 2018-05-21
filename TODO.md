@@ -20,3 +20,4 @@
 ------------
  - [ ] 支持Linux 命令查询 ：https://github.com/LCTT/LCBot/issues/1
  
+#linux 二维码显示：sudo localectl set-locale LANG=C.UTF-8

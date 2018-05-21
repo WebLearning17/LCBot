@@ -7,7 +7,7 @@
 管理员在被管理的群中享有高级管理权限，可进行如踢人等的操作
 注：群名为部分匹配，请尽量输入全名以保证搜索到的群的唯一性
 '''
-admin_group_name = '208的导导们'#'机器人管理群'
+admin_group_name = '酒井测试'#'机器人管理群'
 
 '''
 定义被管理群的群名前缀
@@ -18,8 +18,8 @@ admin_group_name = '208的导导们'#'机器人管理群'
 「Linux中国◆微信机器人群」「Linux中国◆LFS群」等以其为开头的群，
 并将其设为被管理的群
 '''
-group_prefix = '机器人'
-
+#group_prefix = '机器人'
+group_prefix="酒井测试"   #被管理的群
 '''
 定义非特定前缀的群
 
@@ -49,21 +49,21 @@ keyword_of_group = {
 再从列表中随机选取一个发出加群邀请。
 '''
 keyword_of_group = {
-    "测试": "208的导导们",
+    "测试": "酒井测试",
 }
 
 '''
 地区群
 '''
 city_group = {
-    "北京": "机器人北京群",
+    "北京": "酒井测试",
 }
 
 #keyword_of_group.update(city_group)
 
 female_group = "机器人测试群"
 
-alert_group = '208的导导们'#"机器人测试群"
+alert_group = '酒井测试'#"机器人测试群"
 
 turing_key = ''
 
